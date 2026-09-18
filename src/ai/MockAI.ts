@@ -1,0 +1,1 @@
+export function answer(question:string,objectName:string){const q=question.toLowerCase();if(q.includes('什么')||q.includes('啥'))return `${objectName}是这个世界里可以观察和互动的东西。你可以再摸一摸、看看它有什么变化。`;if(q.includes('为什么'))return objectName==='植物'?'植物需要水、阳光和适合的环境才能生长。':'因为这个世界里的东西会按照自己的规律变化。你可以亲自试试看。';return '你可以问我“这是什么？”、“为什么？”或者“接下来可以做什么？”。'}
